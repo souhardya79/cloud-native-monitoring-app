@@ -1,7 +1,7 @@
-#create deployment and service
+#create deployment and services
 from kubernetes import client, config
 
-# Load Kubernetes configuration
+# Load the Kubernetes configuration
 config.load_kube_config()
 
 # Create a Kubernetes API client
